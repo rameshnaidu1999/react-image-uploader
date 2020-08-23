@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBZjkgXUE2tXW94TOLWjtb1cIu7EpCdnuU",
+    authDomain: "rameshimageuploader.firebaseapp.com",
+    databaseURL: "https://rameshimageuploader.firebaseio.com",
+    projectId: "rameshimageuploader",
+    storageBucket: "rameshimageuploader.appspot.com",
+    messagingSenderId: "511610756578",
+    appId: "1:511610756578:web:4c9f6d9eb5deb9dc0a6dbb",
+    measurementId: "G-PBEKZPVTJT"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
